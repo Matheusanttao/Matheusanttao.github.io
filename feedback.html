@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Matheus</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--INICIO DO HEADER-->
+    <header>
+        <div class="row align-items-center justify-content-center m-2 col-md-12 ">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl
+                    text-center align-items-center mb-3">
+                <a href="index.html">
+                    <img src="banner.jpg" class="img-thumbnail" alt="">
+                </a>
+            </div> <!--logo-->
+
+            <div class="col-lg-6 col-md-8">
+                <h0 class="pb-3 m-md-3" style="font-family: 'Georgia', serif; font-size: 2.5rem;">Medeiros Importados
+                </h0>
+                <div class="input-group">
+                    <input type="text" class="form-control bg-light" placeholder="Pesquisar" aria-label="Pesquisar"
+                        id="search-input">
+                    <button class="btn btn-secondary" type="button" id="search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-8 m-md-3">
+
+                <ul class="row m-0 p-0 justify-content-center align-content-center">
+                    <li class="list-unstyled col-12 col-sm-8 text-center">
+                        <p class="mb-0 fw-bold">Atualização 24 horas | Garantia de 30 dias</p>
+                        <p class="mb-0 fw-bold">Atendimento ao cliente 0800 705 101</p>
+                    </li>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--FIM DO HEADER-->
+    <div class="container-fluid container-border border border-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm text-center">
+                    <h5 class="card-title"><a href="index.html" class="menu-link"><b>INÍCIO</b></a></h5>
+                </div>
+                <div class="col-sm text-center">
+                    <h5 class="card-title"><a href="https://wa.me/553185518528" class="menu-link"><b>ATUALIZAÇÃO</b></a></h5>
+                </div>
+                <div class="col-sm text-center">
+                    <h5 class="card-title"><a href="https://wa.me/553173045006" class="menu-link"><b>COMPRAR</b></a></h5>
+                </div>
+                <div class="col-sm text-center">
+                    <h5 class="card-title"><a href="feedback.html" class="menu-link"><b>FEEDBACKS</b></a></h5>
+                </div>
+                <div class="col-sm text-center">
+                    <h5 class="card-title"><a href="https://wa.me/553185518528" class="menu-link"><b>RECLAMAÇÃO</b></a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--FIM NAVBAR-->
+    <!-- INÍCIO CARROUSEL -->
+    <!-- INÍCIO CARROUSEL -->
+
+    <!-- FINAL CARROUSEL -->
+
+    <!-- Inclusão do Bootstrap 5 CSS e JS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FINAL CARROUSEL -->
+
+    <!-- Estilos adicionais para ajustar a largura do carrossel -->
+    <style>
+        .carousel {
+            max-width: 1600px;
+            /* Ajuste a largura máxima do carrossel conforme necessário */
+            margin: 0 auto;
+            /* Centraliza o carrossel horizontalmente */
+        }
+
+        .carousel-inner img {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var carousel = document.querySelector('#carouselExampleCaptions');
+            var carouselInstance = new bootstrap.Carousel(carousel, {
+                interval: 2000, // Tempo em milissegundos para transição automática
+                ride: 'carousel'
+            });
+        });
+    </script>
+    <br>
+    <style>
+        .card-body {
+            text-align: center;
+        }
+    </style>
+    <!-- SEÇÃO DE ANÚNCIOS -->
+   <!-- INÍCIO DA SEÇÃO DE FEEDBACKS -->
+   <header class="bg-dark text-white text-center py-3">
+    <h1>Depoimentos dos Clientes</h1>
+    <p>Veja o que nossos clientes estão dizendo sobre nós!</p>
+</header>
+   <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+       
+        <!-- Feedback 1 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ana Silva</h5>
+                    <p class="card-text">"A experiência de compra foi incrível! O atendimento foi excelente e os produtos chegaram rápido e em perfeitas condições. Recomendo a todos!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 5 de agosto de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Carlos Pereira</h5>
+                    <p class="card-text">"Gostei muito da variedade de produtos disponíveis e dos preços competitivos. A equipe de atendimento ao cliente também foi muito atenciosa."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 12 de julho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mariana Costa</h5>
+                    <p class="card-text">"Comprei vários produtos e todos chegaram antes do prazo. A qualidade dos produtos é excelente, com certeza farei mais compras."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 28 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Fernando Souza</h5>
+                    <p class="card-text">"Adorei o site! Fácil de navegar e com muitas opções de produtos. A entrega foi rápida e eficiente. Estou muito satisfeito!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 20 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Beatriz Oliveira</h5>
+                    <p class="card-text">"A qualidade dos produtos é fantástica! Além disso, o suporte ao cliente foi muito rápido em resolver minhas dúvidas. Super recomendo!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 15 de maio de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lucas Almeida</h5>
+                    <p class="card-text">"Serviço excelente! A compra foi tranquila e recebi tudo conforme o prometido. Já indiquei para meus amigos e família."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 10 de abril de 2024</small>
+                </div>
+            </div>
+        </div>
+         <!-- Feedback 1 -->
+         <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ana Silva</h5>
+                    <p class="card-text">"A experiência de compra foi incrível! O atendimento foi excelente e os produtos chegaram rápido e em perfeitas condições. Recomendo a todos!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 5 de agosto de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Carlos Pereira</h5>
+                    <p class="card-text">"Gostei muito da variedade de produtos disponíveis e dos preços competitivos. A equipe de atendimento ao cliente também foi muito atenciosa."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 12 de julho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mariana Costa</h5>
+                    <p class="card-text">"Comprei vários produtos e todos chegaram antes do prazo. A qualidade dos produtos é excelente, com certeza farei mais compras."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 28 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Fernando Souza</h5>
+                    <p class="card-text">"Adorei o site! Fácil de navegar e com muitas opções de produtos. A entrega foi rápida e eficiente. Estou muito satisfeito!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 20 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Beatriz Oliveira</h5>
+                    <p class="card-text">"A qualidade dos produtos é fantástica! Além disso, o suporte ao cliente foi muito rápido em resolver minhas dúvidas. Super recomendo!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 15 de maio de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lucas Almeida</h5>
+                    <p class="card-text">"Serviço excelente! A compra foi tranquila e recebi tudo conforme o prometido. Já indiquei para meus amigos e família."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 10 de abril de 2024</small>
+                </div>
+            </div>
+        </div>
+         <!-- Feedback 1 -->
+         <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ana Silva</h5>
+                    <p class="card-text">"A experiência de compra foi incrível! O atendimento foi excelente e os produtos chegaram rápido e em perfeitas condições. Recomendo a todos!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 5 de agosto de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Carlos Pereira</h5>
+                    <p class="card-text">"Gostei muito da variedade de produtos disponíveis e dos preços competitivos. A equipe de atendimento ao cliente também foi muito atenciosa."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 12 de julho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mariana Costa</h5>
+                    <p class="card-text">"Comprei vários produtos e todos chegaram antes do prazo. A qualidade dos produtos é excelente, com certeza farei mais compras."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 28 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Fernando Souza</h5>
+                    <p class="card-text">"Adorei o site! Fácil de navegar e com muitas opções de produtos. A entrega foi rápida e eficiente. Estou muito satisfeito!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 20 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Beatriz Oliveira</h5>
+                    <p class="card-text">"A qualidade dos produtos é fantástica! Além disso, o suporte ao cliente foi muito rápido em resolver minhas dúvidas. Super recomendo!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 15 de maio de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lucas Almeida</h5>
+                    <p class="card-text">"Serviço excelente! A compra foi tranquila e recebi tudo conforme o prometido. Já indiquei para meus amigos e família."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 10 de abril de 2024</small>
+                </div>
+            </div>
+        </div>
+         <!-- Feedback 1 -->
+         <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ana Silva</h5>
+                    <p class="card-text">"A experiência de compra foi incrível! O atendimento foi excelente e os produtos chegaram rápido e em perfeitas condições. Recomendo a todos!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 5 de agosto de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Carlos Pereira</h5>
+                    <p class="card-text">"Gostei muito da variedade de produtos disponíveis e dos preços competitivos. A equipe de atendimento ao cliente também foi muito atenciosa."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 12 de julho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mariana Costa</h5>
+                    <p class="card-text">"Comprei vários produtos e todos chegaram antes do prazo. A qualidade dos produtos é excelente, com certeza farei mais compras."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 28 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Fernando Souza</h5>
+                    <p class="card-text">"Adorei o site! Fácil de navegar e com muitas opções de produtos. A entrega foi rápida e eficiente. Estou muito satisfeito!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 20 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Beatriz Oliveira</h5>
+                    <p class="card-text">"A qualidade dos produtos é fantástica! Além disso, o suporte ao cliente foi muito rápido em resolver minhas dúvidas. Super recomendo!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 15 de maio de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lucas Almeida</h5>
+                    <p class="card-text">"Serviço excelente! A compra foi tranquila e recebi tudo conforme o prometido. Já indiquei para meus amigos e família."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 10 de abril de 2024</small>
+                </div>
+            </div>
+        </div>
+         <!-- Feedback 1 -->
+         <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ana Silva</h5>
+                    <p class="card-text">"A experiência de compra foi incrível! O atendimento foi excelente e os produtos chegaram rápido e em perfeitas condições. Recomendo a todos!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 5 de agosto de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Carlos Pereira</h5>
+                    <p class="card-text">"Gostei muito da variedade de produtos disponíveis e dos preços competitivos. A equipe de atendimento ao cliente também foi muito atenciosa."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 12 de julho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mariana Costa</h5>
+                    <p class="card-text">"Comprei vários produtos e todos chegaram antes do prazo. A qualidade dos produtos é excelente, com certeza farei mais compras."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 28 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Fernando Souza</h5>
+                    <p class="card-text">"Adorei o site! Fácil de navegar e com muitas opções de produtos. A entrega foi rápida e eficiente. Estou muito satisfeito!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 20 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Beatriz Oliveira</h5>
+                    <p class="card-text">"A qualidade dos produtos é fantástica! Além disso, o suporte ao cliente foi muito rápido em resolver minhas dúvidas. Super recomendo!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 15 de maio de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lucas Almeida</h5>
+                    <p class="card-text">"Serviço excelente! A compra foi tranquila e recebi tudo conforme o prometido. Já indiquei para meus amigos e família."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 10 de abril de 2024</small>
+                </div>
+            </div>
+        </div>
+         <!-- Feedback 1 -->
+         <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ana Silva</h5>
+                    <p class="card-text">"A experiência de compra foi incrível! O atendimento foi excelente e os produtos chegaram rápido e em perfeitas condições. Recomendo a todos!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 5 de agosto de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Carlos Pereira</h5>
+                    <p class="card-text">"Gostei muito da variedade de produtos disponíveis e dos preços competitivos. A equipe de atendimento ao cliente também foi muito atenciosa."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 12 de julho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mariana Costa</h5>
+                    <p class="card-text">"Comprei vários produtos e todos chegaram antes do prazo. A qualidade dos produtos é excelente, com certeza farei mais compras."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 28 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Fernando Souza</h5>
+                    <p class="card-text">"Adorei o site! Fácil de navegar e com muitas opções de produtos. A entrega foi rápida e eficiente. Estou muito satisfeito!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 20 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Beatriz Oliveira</h5>
+                    <p class="card-text">"A qualidade dos produtos é fantástica! Além disso, o suporte ao cliente foi muito rápido em resolver minhas dúvidas. Super recomendo!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 15 de maio de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lucas Almeida</h5>
+                    <p class="card-text">"Serviço excelente! A compra foi tranquila e recebi tudo conforme o prometido. Já indiquei para meus amigos e família."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 10 de abril de 2024</small>
+                </div>
+            </div>
+        </div>
+         <!-- Feedback 1 -->
+         <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ana Silva</h5>
+                    <p class="card-text">"A experiência de compra foi incrível! O atendimento foi excelente e os produtos chegaram rápido e em perfeitas condições. Recomendo a todos!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 5 de agosto de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Carlos Pereira</h5>
+                    <p class="card-text">"Gostei muito da variedade de produtos disponíveis e dos preços competitivos. A equipe de atendimento ao cliente também foi muito atenciosa."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 12 de julho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mariana Costa</h5>
+                    <p class="card-text">"Comprei vários produtos e todos chegaram antes do prazo. A qualidade dos produtos é excelente, com certeza farei mais compras."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 28 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Fernando Souza</h5>
+                    <p class="card-text">"Adorei o site! Fácil de navegar e com muitas opções de produtos. A entrega foi rápida e eficiente. Estou muito satisfeito!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 20 de junho de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Beatriz Oliveira</h5>
+                    <p class="card-text">"A qualidade dos produtos é fantástica! Além disso, o suporte ao cliente foi muito rápido em resolver minhas dúvidas. Super recomendo!"</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 15 de maio de 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lucas Almeida</h5>
+                    <p class="card-text">"Serviço excelente! A compra foi tranquila e recebi tudo conforme o prometido. Já indiquei para meus amigos e família."</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Avaliado em 10 de abril de 2024</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- FIM DA SEÇÃO DE FEEDBACKS -->
+
+
+    <!-- FIM SEÇÃO DE ANÚNCIOS -->
+    <!-- ESTILOS CUSTOMIZADOS -->
+    <style>
+        .btn-outline-primary:hover {
+            background-color: #003366;
+            color: white;
+        }
+
+        .btn-outline-primary {
+            transition: background-color 0.3s ease;
+        }
+    </style>
+
+
+    <body>
+        <div class="container">
+            <div class="row card-group" id="products"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+    <!--CARD API FINAL-->
+
+    <!--BORDA LINHA-->
+    <div class="row align-items-center justify-content-center m-2 col-md-12">
+        <div class="container-fluid" style="padding:10px; background-color: rgb(240, 240, 240);">
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <!--BORDA FINAL-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Formas de pagamento</h5>
+                        <ul class="list-unstyled">
+                            <li><i class=></i> <img src="img/Design sem nome (1).png" alt="Mastercard"
+                                    style="max-width: 100px;"></li>
+                            <li><i class=></i> <img src="img/pix.png" alt="Pix" style="max-width: 120px;"></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5>Links úteis</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none">Ajuda</a></li>
+                            <li><a href="#" class="text-decoration-none">Sobre nós</a></li>
+                            <li><a href="#" class="text-decoration-none">Serviços</a></li>
+                            <li><a href="#" class="text-decoration-none">Contato</a></li>
+                            <li><a href="#" class="text-decoration-none">Home</a></li>
+
+                        </ul>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Nossas rede sociais</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://www.instagram.com/medeirosimportadossr/">
+                                    <img src="img/icone redes.png" alt="rede social" style="max-width: 170px;">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Nossos contatos</h5>
+                        <ul class="list-unstyled">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-facebook"></i> Contagem / MG</li>
+                                <li><i class="fa fa-twitter"></i> Brasil</li>
+                                <li><i class="bi bi-phone"></i> 0800 705 101</li>
+
+                                <a href="mailto:matheusantaosilva18@gmail.com" class="text-decoration-none"><i
+                                        class="bi bi-envelope"></i> medeirosimportados@gmail.com</a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="row mt-12">
+        <div class="col-md-12 text-center" style="padding:10px; background-color: rgb(240, 240, 240);">
+            <p class="mb-0 text">
+                Copyright &copy; 2023
+                <a href="https://www.canva.com/design/DAFMxcNVZRw/r335fVDod9EcEi_QLTQ8Jw/view?website#2" target="_blank"
+                    style="text-decoration:none;">Empresa Medeiros
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybAtGn538ZoBFgmVQRxFqM5aF7pK5jbA41hOr8vWFCItE6CZf"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
